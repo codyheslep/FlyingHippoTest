@@ -19,16 +19,16 @@ const Overview = () => {
     <img src="../images/bubble3.png" className="overviewBubble3" />
     <div className="overviewBox">
       <div className="overviewHeader">
-      <text>{student.name}</text>
+      <text className="redHead">{student.name}</text>
       </div>
-      <div className="overviewSubHeader">
+      <div className="tealSubHeader">
       <text>{student.class}<br/></text>
       <text>FROM {student.location}</text>
       </div>
       <div className="overviewBody">
-      <p>{student.descriptionA}</p>
-      <p>{student.descriptionB}</p>
-      <p>{student.descriptionC}</p>
+      <p className="blackBody">{student.descriptionA}</p>
+      <p className="blackBody">{student.descriptionB}</p>
+      <p className="blackBody">{student.descriptionC}</p>
       </div>
       <div className="overviewSocialMedia">
       <text>links here</text>

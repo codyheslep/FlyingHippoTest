@@ -1,0 +1,103 @@
+body {
+  font-family: sans-serif;
+  background-image: url("./images/background.png");
+  background-color: #3ba979
+}
+
+a {
+  text-decoration: none;
+}
+
+label {
+  display: block;
+}
+
+nav a {
+  display: inline-block;
+  margin: 1em;
+}
+
+form div {
+  margin: 1em;
+  display: inline-block;
+}
+
+text {
+  margin-left: 7%;
+}
+
+p {
+  margin-left: 7%;
+}
+
+.container{
+  margin: 5%;
+  margin-top: 15%;
+  position: relative;
+}
+
+.overview {
+  width: 50vw;
+  height: 50vw;
+  top: 1vw;
+}
+
+.overviewImage {
+  height: 120%;
+  position: absolute;
+  top: -18%;
+  left: 20%;
+}
+.overviewBubble1 {
+  height: 10%;
+  position: absolute;
+  top: -18%;
+  left: 45%;
+}
+.overviewBubble2 {
+  height: 15%;
+  position: absolute;
+  top: -5%;
+  left: 50%;
+}
+.overviewBubble3 {
+  height: 8%;
+  position: absolute;
+  top: 15%;
+  left: 51%;
+}
+
+.overviewBox {
+  width: 32vw;
+  height: 45vw;
+  background-color: white;
+  border-bottom-left-radius: 2vw;
+  box-shadow: 1vw 1vw 1vw darkgray;
+}
+
+.overviewHeader{
+  background-color: #f3bd48;
+  color: #d41121;
+  font-size: 2.5vw;
+  line-height: 2;
+  height: 10%;
+}
+
+.overviewSubHeader {
+  color: #3ba979;
+  font-size: 1.3vw;
+  margin-top: 1vh;
+  line-height: 1.2;
+}
+
+.overviewBody {
+  color: black;
+  font-size: 1.3vw;
+  line-height: 1.5;
+  margin-right: 15%
+}
+
+.overviewSocialMedia {
+  color: #d41121;
+  font-size: 2vw;
+}

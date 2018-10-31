@@ -30,7 +30,7 @@ const BlogPost = () => {
     </div>
     <div>
       <text className="tagHeader">Tags:</text>
-      <text className="blackBody">Admissions, lorem ipsum, cyclones, iowa state university, ISU, memorial union, Midnight Pancakes, tradtions</text>
+      <text className="blackBody">Admissions, lorem ipsum, cyclones, iowa state university, ISU</text>
     </div>
     </div>
     </div>

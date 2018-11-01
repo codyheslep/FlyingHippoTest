@@ -30,6 +30,15 @@ p {
   margin-left: 7%;
 }
 
+hr {
+  margin: 0;
+  margin-top: 1vw;
+}
+
+br{
+margin: 0;
+}
+
 .redHead{
   color: #d41121;
   font-size: 2vw;
@@ -205,12 +214,17 @@ p {
 }
 
 .latestPosts {
+  position: relative;
   width: 30vw;
   height: 45vw;
 }
 
 .latestPostsContent {
+  position: absolute;
   left: 0;
+  top: 5vw;
+  width: 30vw;
+  height: 40vw;
 }
 
 .latestPostsContentBackground{
@@ -255,9 +269,48 @@ p {
 }
 
 .posts{
-  position: absolute;
-  width: 100%;
-  top: 7%;
-  left: 0
+  position: relative;
+  width: 30vw;
+  height: auto;
+  top: 1vw;
+  left: 0;
+
 }
+
+.postHead {
+  color: darkblue;
+  font-size: 1.5vw;
+  line-height: 3.5;
+}
+
+.postAuthor {
+  color: #d41121;
+  font-size: 1.5vw;
+  margin-left: .4vw;
+  line-height: 3.5;
+}
+
+.postTitle {
+  color: black;
+  font-size: 1.5vw;
+ margin: 1vw;
+ margin-left: 2vw;
+ margin-bottom: 0;
+ display: inline-block
+}
+
+.postDate {
+  color: black;
+  font-size: 1vw;
+  margin-left: 2vw;
+  margin-bottom: 1vw
+}
+
+.postContainer {
+  position: relative;
+  height: 40vw;
+  width: 30vw;
+
+}
+
 

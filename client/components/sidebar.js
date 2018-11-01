@@ -7,40 +7,50 @@ const Sidebar = () => {
     <div className="sidebarContainer">
       <div className="latestPosts">
         <div className="sidebarHeader">
-        <text>LATEST POSTS FROM</text>
-        <text>MELLANIE</text>
+        <text className="postHead">LATEST POSTS FROM</text>
+        <text className="postAuthor">MELLANIE</text>
         </div>
+        <img src="../images/yellow_texture.png" className="latestPostsContentBackground" />
         <div className="latestPostsContent">
+        <div className="postContainer">
         <div className="posts">
-          <text>sample post</text>
+          <p className="postTitle">The fire is so delightful</p>
           <br/>
-          <text>date posted</text>
+          <text className="postDate">POSTED ON DECEMBER 15, 2011</text>
           <hr/>
-          <text>sample post</text>
+          </div>
+          <div className="posts">
+          <p className="postTitle">Agronomy Courtyard</p>
           <br/>
-          <text>date posted</text>
+          <text className="postDate">POSTED ON DECEMBER 15, 2011</text>
           <hr/>
-          <text>sample post</text>
+          </div>
+          <div className="posts">
+          <p className="postTitle">College of Agriculture and Life Sciences Student Council</p>
           <br/>
-          <text>date posted</text>
+          <text className="postDate">POSTED ON DECEMBER 15, 2011</text>
           <hr/>
-          <text>sample post</text>
+          </div>
+          <div className="posts">
+          <p className="postTitle">Mellanie's Intro</p>
           <br/>
-          <text>date posted</text>
+          <text className="postDate">POSTED ON DECEMBER 15, 2011</text>
           <hr/>
-          <text>sample post</text>
+          </div>
+          <div className="posts">
+          <p className="postTitle">Greetings from just up the road</p>
           <br/>
-          <text>date posted</text>
+          <text className="postDate">POSTED ON DECEMBER 15, 2011</text>
           <hr/>
+          </div>
           <button/>
           </div>
-          <img src="../images/yellow_texture.png" className="latestPostsContentBackground" />
-        </div>
+          </div>
       </div>
       <div className="latestVideos">
         <div className="sidebarHeader" >
-        <text>Latest Videos by</text>
-        <text>Mellanie</text>
+        <text className="postHead">LATEST VIDEOS FROM</text>
+        <text className="postAuthor">MELLANIE</text>
         </div>
         <div>
         <div className="latestVideosContentBackground"/>

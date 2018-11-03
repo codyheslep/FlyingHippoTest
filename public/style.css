@@ -39,6 +39,24 @@ br{
 margin: 0;
 }
 
+.navbar {
+  width: 100%;
+  height: 5vw;
+}
+
+.bloggerButton{
+  width: 33%;
+  float: left;
+}
+
+.homeButton{
+  width: 33%;
+  float: left;
+}
+.singleButton{
+  width: 33%;
+  float: left;
+}
 .redHead{
   color: #d41121;
   font-size: 2vw;
@@ -274,7 +292,6 @@ margin: 0;
   height: auto;
   top: 1vw;
   left: 0;
-
 }
 
 .postHead {
@@ -310,7 +327,12 @@ margin: 0;
   position: relative;
   height: 40vw;
   width: 30vw;
-
 }
 
-
+.buttonPost{
+  position: relative;
+  width: auto;
+  height: auto;
+  top: 2vw;
+  left: 2vw;
+}

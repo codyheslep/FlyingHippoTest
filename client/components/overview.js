@@ -13,10 +13,10 @@ let student = {
 const Overview = () => {
   return (
     <div className="overview">
-    <img src="../images/crazy_mary.png" className="overviewImage" />
-    <img src="../images/bubble1.png" className="overviewBubble1" />
-    <img src="../images/bubble2.png" className="overviewBubble2" />
-    <img src="../images/bubble3.png" className="overviewBubble3" />
+    <img src="../images/blogger/crazy_mary.png" className="overviewImage" />
+    <img src="../images/blogger/bubble1.png" className="overviewBubble1" />
+    <img src="../images/blogger/bubble2.png" className="overviewBubble2" />
+    <img src="../images/blogger/bubble3.png" className="overviewBubble3" />
     <div className="overviewBox">
       <div className="overviewHeader">
       <text className="redHead">{student.name}</text>

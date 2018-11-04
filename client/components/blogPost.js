@@ -4,7 +4,7 @@ const BlogPost = () => {
   return (
     <div className="blogPost">
     <div >
-    <img src="../images/post_background.png" className="blogPostBackground" />
+    <img src="../images/blogger/post_background.png" className="blogPostBackground" />
     <div className="blogPostBox">
     </div>
     </div>

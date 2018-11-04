@@ -10,7 +10,7 @@ const Sidebar = () => {
             <text className="postAuthor">MELLANIE</text>
           </div>
           <img
-            src="../images/yellow_texture.png"
+            src="../images/blogger/yellow_texture.png"
             className="latestPostsContentBackground"
           />
           <div className="latestPostsContent">
@@ -61,7 +61,7 @@ const Sidebar = () => {
           <div>
             <div className="latestVideosContentBackground" />
             <img
-              src="../images/tv_sketch.png"
+              src="../images//blogger/tv_sketch.png"
               className="latestVideosContent"
             />
           </div>

@@ -1,21 +1,18 @@
 import React from 'react'
 import {connect} from 'react-redux'
 import Overview from './overview'
-import BlogPost from './blogPost'
+import SmallBlogPost from './smallblogPost'
 import Sidebar from './sidebar'
 
 
-const UserHome = () => {
+const Home = () => {
   return (
     <div className="container">
     <div className="logoContainer">
-    <img src="../images/blogger/logo.png" className="bloggerLogo"/>
+    <img src="../images/home/logo.png" className="homeLogo"/>
     </div>
     <div className="innerContainer">
-    <Overview />
-    </div>
-    <div className="innerContainer">
-      <BlogPost />
+      <SmallBlogPost />
     </div>
     <div >
       <Sidebar />
@@ -24,4 +21,4 @@ const UserHome = () => {
   )
 }
 
-export default UserHome
+export default Home

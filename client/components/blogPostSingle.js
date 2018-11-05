@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 
-class BlogPost extends Component {
+class BlogPostSingle extends Component {
   constructor () {
     super()
 
@@ -82,5 +82,4 @@ class BlogPost extends Component {
   }
 }
 
-export default BlogPost
-
+export default BlogPostSingle

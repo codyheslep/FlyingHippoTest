@@ -47,7 +47,8 @@ class Overview extends Component {
       <div className="blackBody" dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(this.state.student[0].acf.description)}}/>
       </div>
       <div className="overviewSocialMedia">
-      <text>links here</text>
+      <img src="../images/blogger/twitter.png" className="twitter" />
+      <img src="../images/blogger/rss.png" className="rss" />
       </div>
     </div>
     </div>

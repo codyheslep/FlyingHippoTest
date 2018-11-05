@@ -27,6 +27,7 @@ const Sidebar = () => {
           <div className="latestPostsContent">
             <div>
             <PostList />
+            <button className="viewAllButton">view all</button>
             </div>
           </div>
         </div>
@@ -40,6 +41,9 @@ const Sidebar = () => {
               src="../images/blogger/tvsidebar.png"
               className="latestVideosContent"
             />
+            <div className="centerText">
+            <text className="blueHeader">College of Agriculture and Life Sciences Student Council</text>
+            </div>
              <div className="smallvideoContainer">
             <iframe className="smallVideo" src="https://www.youtube.com/embed/dQw4w9WgXcQ"frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
@@ -51,6 +55,7 @@ const Sidebar = () => {
               src="../images/blogger/textlinks.png"
               className="textLinks"
             />
+            <text className="copyright">© 2012 Student Life</text>
         </div>
       </div>
     </div>

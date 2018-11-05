@@ -4,6 +4,7 @@ import {Route, Switch} from 'react-router-dom'
 import {UserHome} from './components'
 import {Navbar} from './components'
 import {Home} from './components'
+import {Single} from './components'
 
 class Routes extends Component {
   render() {
@@ -14,6 +15,7 @@ class Routes extends Component {
       <Switch>
         <Route exact path="/" component={UserHome} />
         <Route exact path="/home" component={Home} />
+        <Route exact path="/single" component={Single} />
       </Switch>
       </div>
     )

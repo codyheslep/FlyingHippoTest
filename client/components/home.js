@@ -2,7 +2,7 @@ import React from 'react'
 import {connect} from 'react-redux'
 import Overview from './overview'
 import SmallBlogPost from './smallblogPost'
-import Sidebar from './sidebar'
+import SidebarHome from './sidebarHome'
 
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
       <SmallBlogPost />
     </div>
     <div >
-      <Sidebar />
+      <SidebarHome />
     </div>
     </div>
   )

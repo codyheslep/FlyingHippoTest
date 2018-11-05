@@ -1,4 +1,5 @@
 import React from "react";
+import PostList from './postList'
 
 const Sidebar = () => {
   return (
@@ -15,41 +16,7 @@ const Sidebar = () => {
           />
           <div className="latestPostsContent">
             <div className="postContainer">
-              <div className="posts">
-                <p className="postTitle">The fire is so delightful</p>
-                <br />
-                <text className="postDate">POSTED ON DECEMBER 15, 2011</text>
-                <hr />
-              </div>
-              <div className="posts">
-                <p className="postTitle">Agronomy Courtyard</p>
-                <br />
-                <text className="postDate">POSTED ON DECEMBER 15, 2011</text>
-                <hr />
-              </div>
-              <div className="posts">
-                <p className="postTitle">
-                  College of Agriculture and Life Sciences Student Council
-                </p>
-                <br />
-                <text className="postDate">POSTED ON DECEMBER 15, 2011</text>
-                <hr />
-              </div>
-              <div className="posts">
-                <p className="postTitle">Mellanie's Intro</p>
-                <br />
-                <text className="postDate">POSTED ON DECEMBER 15, 2011</text>
-                <hr />
-              </div>
-              <div className="posts">
-                <p className="postTitle">Greetings from just up the road</p>
-                <br />
-                <text className="postDate">POSTED ON DECEMBER 15, 2011</text>
-                <hr />
-              </div>
-              <div className="buttonPost">
-                <button>view all</button>
-              </div>
+            <PostList />
             </div>
           </div>
         </div>

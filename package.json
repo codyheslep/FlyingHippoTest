@@ -40,6 +40,7 @@
     "axios": "^0.15.3",
     "compression": "^1.7.3",
     "connect-session-sequelize": "^4.1.0",
+    "dompurify": "^1.0.8",
     "express": "^4.16.4",
     "express-session": "^1.15.1",
     "file-loader": "^2.0.0",

@@ -25,43 +25,42 @@ class BlogPost extends Component {
   render() {
     return (
       <div>
-      { this.state && this.state.blogPost[0] &&
+      { this.state && this.state.blogPost[4] &&
       <div className="blogPost">
         <div >
           <img src="../images/blogger/post_background.png" className="blogPostBackground" />
-          <div className="blogPostBox">
-          </div>
+          <div className="blogPostBox"/>
         </div>
         <div className="blogPostContent">
           <div>
-            <text className="tealSubHeader">POSTED ON {this.state.blogPost[0].acf.date.toUpperCase()}</text>
+            <text className="tealSubHeader">POSTED ON {this.state.blogPost[4].acf.date.toUpperCase()}</text>
           </div >
-          <div>
-            <text className="redHead">{this.state.blogPost[0].title.rendered}</text>
-            <text className="goldItalics">by {this.state.blogPost[0].acf.author}</text>
+          <div className="blogTitle">
+            <text className="redHead">{this.state.blogPost[4].acf.title}</text>
+            <text className="goldItalics">by {this.state.blogPost[4].acf.author}</text>
           </div>
           <div>
-            <p className="blackBodyItalics">{this.state.blogPost[0].content.rendered}</p>
+            <p className="blackBodyItalics">{this.state.blogPost[4].acf.content}</p>
           </div>
-          {this.state.blogPost[0].acf.video &&
+          {this.state.blogPost[4].acf.video &&
           <div className="videoContainer">
-            <iframe className="largeVideo" src={this.state.blogPost[0].acf.video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe className="largeVideo" src={this.state.blogPost[4].acf.video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
           }
-          {this.state.blogPost[0].acf.image &&
+          {this.state.blogPost[4].acf.image &&
           <div className="videoContainer">
-          <img src={this.state.blogPost[0].acf.image} className="blogPostBackground" />
+          <img src={this.state.blogPost[4].acf.image} className="blogPostBackground" />
           </div>
           }
         </div>
         <div className="tagContainer">
           <div>
             <text className="tagHeader">Categories:</text>
-            <text className="blackBody">Christmas, ISU, Social Life, Videos</text>
+            <text className="blackBody">{this.state.blogPost[4].acf.categories}</text>
           </div>
           <div>
             <text className="tagHeader">Tags:</text>
-            <text className="blackBody">Admissions, lorem ipsum, cyclones, iowa state university, ISU</text>
+            <text className="blackBody">{this.state.blogPost[4].acf.tags}</text>
           </div>
         </div>
       </div>

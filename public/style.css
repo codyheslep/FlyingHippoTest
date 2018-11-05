@@ -35,10 +35,19 @@ hr {
   margin-top: 1vw;
 }
 
-br{
-margin: 0;
-}
+.blackBody br{
+  margin-bottom: 1vw;
+  }
+/* p {
+  color: black;
+  font-size: 1vw;
+  line-height: 1.5;
+  margin-left: 1vw;
+} */
 
+/* br {
+  margin: 1vw;
+} */
 .navbar {
   width: 100%;
   height: 5vw;
@@ -61,22 +70,22 @@ margin: 0;
   color: #d41121;
   font-size: 2vw;
   line-height: 2;
-  margin-left: 1vw
+  margin-left: 2.5vw
 }
 
 .tealSubHeader {
   color: #3ba979;
   font-size: 1vw;
-  margin-top: 1vh;
+  margin-top: 1vw;
   margin-left: 1vw;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 .goldItalics {
   color: goldenrod;
   font-size: 1vw;
   font-style: italic;
-  margin-left: 1vw;
+  margin-left: .2vw;
 }
 
 .blackBody {
@@ -216,6 +225,10 @@ margin: 0;
   height: 43vw;
   top: 2.5vw;
   left: 4vw;
+}
+
+.blogTitle{
+  margin-left: -1.5vw
 }
 
 .videoContainer {

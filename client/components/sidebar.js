@@ -4,6 +4,10 @@ import PostList from './postList'
 const Sidebar = () => {
   return (
     <div className="sidebar">
+    <img src="../images/blogger/castbutton.png" className="castButton"/>
+    <img src="../images/blogger/videosbutton.png" className="videosButton"/>
+    <img src="../images/blogger/topicsbutton.png" className="topicsButton"/>
+    <img src="../images/blogger/archivesbutton.png" className="archivesButton"/>
       <div className="sidebarContainer">
         <div className="latestPosts">
           <div className="sidebarHeader">
@@ -15,7 +19,7 @@ const Sidebar = () => {
             className="latestPostsContentBackground"
           />
           <div className="latestPostsContent">
-            <div className="postContainer">
+            <div>
             <PostList />
             </div>
           </div>

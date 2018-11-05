@@ -7,6 +7,9 @@ class BlogPost extends Component {
     this.state = {
       blogPost: []
     }
+  }
+
+  componentDidMount () {
     let blogPostsURL = "https://www.pushpinsandfabriccorkboards.com/wp-json/wp/v2/fh_blogpost"
     fetch(blogPostsURL)
     .then(response => response.json())
@@ -16,10 +19,6 @@ class BlogPost extends Component {
       })
     })
     .then(console.log(this.state.blogPost))
-  }
-
-  componentDidMount () {
-    console.log(this.state)
   }
 
   render() {
@@ -33,11 +32,11 @@ class BlogPost extends Component {
         </div>
         <div className="blogPostContent">
           <div>
-            <text className="tealSubHeader">POSTED ON {this.state.blogPost[4].acf.date.toUpperCase()}</text>
+            <text className="tealSubHeaderPost">POSTED ON {this.state.blogPost[4].acf.date.toUpperCase()}</text>
           </div >
           <div className="blogTitle">
             <text className="redHead">{this.state.blogPost[4].acf.title}</text>
-            <text className="goldItalics">by {this.state.blogPost[4].acf.author}</text>
+            <text className="goldItalics">by {this.state.blogPost[4].acf.author.toUpperCase()}</text>
           </div>
           <div>
             <p className="blackBodyItalics">{this.state.blogPost[4].acf.content}</p>

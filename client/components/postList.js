@@ -28,17 +28,14 @@ class PostList extends Component {
     let posts = this.state.posts.map((post, index) => {
       return (
         <div className="posts">
-                <p className="postTitle">{post.acf.title}</p>
-                <br />
-                <text className="postDate">POSTED ON {post.acf.date}</text>
-                <hr />
+                <text className="postTitle">{post.acf.title}</text><br /><text className="postDate">POSTED ON {post.acf.date}</text><hr />
               </div>
       )
     })
 
 
     return (
-      <div>
+      <div className="postContainer">
         {posts}
               </div>
     )

@@ -11,7 +11,7 @@ class BlogPost extends Component {
 
   componentDidMount () {
     let blogPostsURL = "https://www.pushpinsandfabriccorkboards.com/wp-json/wp/v2/fh_blogpost"
-    fetch(blogPostsURL)
+    fetch(`${'https://cors-anywhere.herokuapp.com/'}https://www.pushpinsandfabriccorkboards.com/wp-json/wp/v2/fh_blogpost`)
     .then(response => response.json())
     .then(response => {
       this.setState({
@@ -70,3 +70,4 @@ class BlogPost extends Component {
 }
 
 export default BlogPost
+

@@ -270,45 +270,76 @@ br {
   margin-left: 1vw;
 }
 
+.sidebarBackground {
+  background-image: url("./images/blogger/rightsidebar.png");
+
+  z-index: -1;
+}
+
 .sidebar{
-  border: 1px solid white;
-  width: 30vw;
+  border: 2px solid white;
   position: absolute;
+  width: 30.2vw;
+  height: auto;
   top: -2%;
   left: 65%;
-  z-index: 1;
+  z-index: 1
 }
 
 .castButton{
   position: absolute;
   height:12vw;
-  left: -2.7vw;
-  top: 12vw;
+  left: -2.8vw;
+  top: 15vw;
   z-index: -1
 }
 
 .videosButton{
   position: absolute;
   height:8.5vw;
-  left: -2.7vw;
-  top: 25vw;
+  left: -2.8vw;
+  top: 28vw;
   z-index: -1
 }
 
 .topicsButton{
   position: absolute;
   height:8.5vw;
-  left: -2.7vw;
-  top: 35vw;
+  left: -2.8vw;
+  top: 38vw;
   z-index: -1
 }
 
 .archivesButton{
   position: absolute;
   height:10vw;
-  left: -2.7vw;
-  top: 45vw;
+  left: -2.8vw;
+  top: 48vw;
   z-index: -1
+}
+
+.searchButton{
+  background-color: white;
+  height: 3vw;
+  width: 5vw;
+  border-radius: 1vw;
+  position: absolute;
+  left: -2.9vw;
+  top: .8vw;
+}
+
+.searchIcon {
+  width: 2.1vw;
+  left: .5vw;
+  top: .5vw;
+  position: relative;
+}
+
+.search {
+  position: absolute;
+  height: 8.5vw;
+  left: -4.5vw;
+  top: 4vw;
 }
 
 .sidebarContainer {
@@ -318,7 +349,7 @@ br {
 .latestPosts {
   position: relative;
   width: 30vw;
-  height: 45vw;
+  height: 42vw;
 }
 
 .latestPostsContent {
@@ -331,7 +362,7 @@ br {
 
 .latestPostsContentBackground{
   width: 31vw;
-  height: 45vw;
+  height: 42vw;
   left: 0;
   right: -10%;
   z-index:-1;
@@ -339,7 +370,7 @@ br {
 
 .latestVideos {
   width: 30vw;
-  height: 50vw;
+  height: 62vw;
   position: relative;
 }
 
@@ -356,7 +387,7 @@ br {
   position: absolute;
   opacity: .5;
   width: 30vw;
-  height: 50vw;
+  height: 62vw;
   left: 0;
   top: 0;
   z-index: -1;
@@ -364,10 +395,38 @@ br {
 
 .latestVideosContent{
   position: absolute;
-  width: 30.5vw;
-  height: 50vw;
+  width: 25vw;
+  right: 0;
+  top: 15%;
+}
+
+.videoLinks{
+  position: absolute;
+  width: 30.2vw;
   left: 0;
-  top: 20%;
+  top: 62%;
+}
+
+.smallvideoContainer {
+  position: absolute;
+  width: 15vw;
+  height: 16.5vw;
+  left: 10.3vw;
+  top: 16.5vw;
+  z-index: 1;
+}
+
+.smallVideo {
+  position: absolute;
+  width: 100%;
+  height: 66% !important;
+}
+
+.textLinks {
+  position: absolute;
+  width: 20vw;
+  left: 5vw;
+  top: 67%;
 }
 
 .posts{

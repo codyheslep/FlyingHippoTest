@@ -11,7 +11,7 @@ class Overview extends Component {
     }
 
     let studentsURL = "https://www.pushpinsandfabriccorkboards.com/wp-json/wp/v2/fh_user"
-    fetch(studentsURL)
+    fetch(`${'https://cors-anywhere.herokuapp.com/'}https://www.pushpinsandfabriccorkboards.com/wp-json/wp/v2/fh_user`)
     .then(response => response.json())
     .then(response => {
       this.setState({

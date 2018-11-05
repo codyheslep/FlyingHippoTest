@@ -6,7 +6,7 @@ const volleyball = require('volleyball');
 const bodyParser = require('body-parser');
 
 const app = express();
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 8080
 
 //logging middleware
 app.use(volleyball);
@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //static middleware
 app.use(express.static(path.join(__dirname, '..', 'public')));
 
-app.listen(process.env.PORT || 3000, () => console.log(`Listening on`, port))
+app.listen(process.env.PORT || 8080, () => console.log(`Listening on`, port))
 
 app.use('/api', require('./api'));
 

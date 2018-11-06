@@ -27,21 +27,24 @@ class BlogPostSingle extends Component {
       { this.state && this.state.blogPost[0] &&
       <div className="blogPostLarge">
         <div >
-          <img src="../images/blogger/largeblogback.png" className="blogPostBackgroundLarge" />
+          <img src="../images/single/largeblogback.png" className="blogPostBackgroundLarge" />
           <div className="blogPostBoxLarge"/>
         </div>
         <img
-              src="../images/blogger/blogwriter.png"
+              src="../images/single/mellanie.png"
               className="blogWriterLarge"
             />
+            <img
+              src="../images/single/bymel.png"
+              className="blogWriterLargeName"
+            />
         <div className="blogPostContentLarge">
+          <div className="blogTitleLarge">
+            <text className="redHead">{this.state.blogPost[0].acf.title}</text>
+          </div>
           <div>
             <text className="goldDate"> {this.state.blogPost[0].acf.date.toUpperCase()}</text>
           </div >
-          <div className="blogTitle">
-            <text className="redHead">{this.state.blogPost[0].acf.title}</text>
-            <text className="goldItalics">by {this.state.blogPost[0].acf.author.toUpperCase()}</text>
-          </div>
           <div>
             <p className="blackBodyItalics">{this.state.blogPost[0].acf.content}</p>
           </div>
@@ -51,17 +54,20 @@ class BlogPostSingle extends Component {
           </div>
           }
           {this.state.blogPost[0].acf.picture1 &&
-          <div className="videoContainer">
-          <img src={this.state.blogPost[0].acf.picture1} className="blogPostBackground" />
+          <div>
+          <img src={this.state.blogPost[0].acf.picture1} className="blogPostPic1" />
           </div>
           }
           {this.state.blogPost[0].acf.picture2 &&
-          <div className="videoContainer">
-          <img src={this.state.blogPost[0].acf.picture2} className="blogPostBackground" />
+          <div>
+          <img src={this.state.blogPost[0].acf.picture2} className="blogPostPic2" />
           </div>
           }
+          <div>
+            <p className="blackBodyItalics">{this.state.blogPost[0].acf.content2}</p>
+          </div>
         </div>
-        <div className="tagContainer">
+        <div className="tagContainer2">
           <div>
             <text className="tagHeader">Categories:</text>
             <text className="blackBody">{this.state.blogPost[0].acf.categories}</text>

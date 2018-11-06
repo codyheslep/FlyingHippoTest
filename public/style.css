@@ -105,9 +105,10 @@ br {
 
 .goldDate {
   color: goldenrod;
-  font-size: 1vw;
-  margin-left: .2vw;
-  display: inline-block
+font-size: 1vw;
+margin-left: 1vw;
+display: inline-block;
+margin-bottom: 2vw;
 }
 
 .blueHeader {
@@ -122,7 +123,7 @@ br {
   font-size: 1vw;
   line-height: 1.5;
   margin-left: 1vw;
-  display: inline-block;
+  display: inline;
 }
 
 .blackBodyItalics {
@@ -132,7 +133,7 @@ br {
   line-height: 1.5;
   margin-top: 0;
   margin-left: 1vw;
-  margin-right: 5vw;
+  margin-right: 3vw;
 }
 
 .container{
@@ -208,7 +209,7 @@ br {
   height: 37vw;
   background-color: white;
   border-bottom-left-radius: 2vw;
-  box-shadow: 1vw 1vw 1vw darkgray;
+  box-shadow: 1vw 1vw 1vw black;
 }
 
 .overviewHeader{
@@ -217,7 +218,9 @@ br {
 }
 
 .overviewBody {
-  margin-right: 15%
+  margin-right: 15%;
+  margin-left: 1vw;
+  margin-top: -1vw;
 }
 
 .overviewSocialMedia {
@@ -235,7 +238,7 @@ br {
 
 .blogPost {
   width: 60vw;
-  height: 60vw;
+  height: auto;
   top: 1vw;
   position: relative;
 }
@@ -275,7 +278,7 @@ br {
 .numBubble{
   position: absolute;
   top: .5vw;
-  left: 19vw;
+  left: 17vw;
   width: 2vw;
 }
 
@@ -298,16 +301,26 @@ br {
 
 .tagContainer {
   position: absolute;
-  top: 46vw;
+  top: 88%;
   left: 5%;
-  width: 50vw;
-  display: inline-block
+  width: 45vw;
+  display: inline-block;
+  margin-left: 2vw;
+}
+
+.tagContainer2 {
+  position: absolute;
+  top: 83%;
+  left: 5%;
+  width: 45vw;
+  display: inline-block;
+  margin-left: 2vw;
 }
 
 .tagHeader {
   color: #d41121;
   font-size: 1vw;
-  margin-left: 1vw;
+  margin-left: 0;
 }
 
 .sidebarBackground {
@@ -361,7 +374,7 @@ br {
   color: darkblue;
   font-size: 1vw;
   position: absolute;
-  top: 60vw;
+  top: 97%;
   left: 6.5vw;
 }
 
@@ -495,7 +508,7 @@ br {
 .textLinks {
   position: absolute;
   width: 20vw;
-  left: 5vw;
+  left: 3vw;
   top: 67%;
 }
 
@@ -602,15 +615,14 @@ br {
 
 
 .blogPostLarge {
-  width: 60vw;
-  height: 60vw;
-  top: 1vw;
+  width: 55vw;
+  height: 110vw;
   position: relative;
 }
 
 .blogPostBackgroundLarge {
   width: 53vw;
-  height: 53vw;
+  height: 100vw;
   z-index: -1
 }
 
@@ -620,7 +632,7 @@ br {
   top: 2.5vw;
   left: 2.5vw;
   width: 48vw;
-  height: 43vw;
+  height: 87vw;
   opacity: .5;
   border-radius: 1vw;
 }
@@ -628,18 +640,163 @@ br {
 .blogPostContentLarge {
   position: absolute;
   width: 48vw;
-  height: 43vw;
+  height: 87vw;
   top: 2.5vw;
   left: 4vw;
 }
 
 .blogWriterLarge {
   position: absolute;
-  top: 2.8vw;
-  left: -1.5vw;
-  width: 6vw;
+top: -8.6vw;
+left: 2vw;
+width: 12vw;
 }
 
-.blogTitle{
-  margin-left: -1.5vw
+.blogWriterLargeName {
+  position: absolute;
+top: -3.5vw;
+left: 12vw;
+width: 8vw;
+}
+
+.blogTitleLarge{
+  margin-left: -1.5vw;
+  margin-top: 2vw;
+}
+
+.blogPostPic1 {
+  width: 43vw;
+  margin-left: 1vw;
+  margin-bottom: 3vw;
+}
+
+.blogPostPic2 {
+  width: 43vw;
+  margin-left: 1vw;
+  margin-bottom: 1vw;
+}
+
+.postContainer2 {
+  position: relative;
+height: 40vw;
+width: 30vw;
+font-size: 0;
+top: 5vw;
+}
+
+.postTitle2 {
+  color: darkblue;
+  font-size: 1.5vw;
+ margin: 1vw;
+ margin-left: 2vw;
+ margin-bottom: .5vw;
+ display: inline-block
+}
+
+.postAuthor2 {
+  color: darkblue;
+  font-size: 1.2vw;
+  margin-left: 2vw;
+  margin-bottom: 1vw;
+  font-style: italic;
+}
+
+.postDate2 {
+  color: darkgoldenrod;
+  font-size: 1vw;
+  margin-left: .5vw;
+  margin-bottom: 1vw;
+  font-style: bold;
+}
+
+.viewAllButton2 {
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.5vw;
+  position: absolute;
+  top: 39vw;
+  left: 2vw;
+  border: none;
+  border-radius: 0.5vw;
+  height: 3vw;
+  width: 8vw;
+}
+
+.latestVideosContentBackground2 {
+  background-color: lightskyblue;
+  position: absolute;
+  opacity: .5;
+  width: 30.2vw;
+  height: 68vw;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.latestVideosContent2{
+  position: absolute;
+  width: 25vw;
+  right: 0;
+  top: 15%;
+}
+
+.videoLinks2{
+  position: absolute;
+  width: 30.2vw;
+  left: 0;
+  top: 70%;
+}
+
+.textLinks2 {
+  position: absolute;
+  width: 20vw;
+  left: 3vw;
+  top: 74%;
+}
+
+.sidebar2 {
+  border: 2px solid white;
+position: absolute;
+width: 30.2vw;
+height: 110vw;
+top: -2%;
+left: 65%;
+z-index: 1;
+}
+
+.copyright2{
+  color: darkblue;
+font-size: 1vw;
+position: absolute;
+bottom: -5vw;
+left: 6.5vw;
+}
+
+.commentsContainer {
+  width: 53vw;
+  height: auto;
+  background-color: white;
+  border-radius: 1vw;
+  box-shadow: black;
+  margin-top: -9vw;
+  box-shadow: 1vw 1vw 1vw 1vw black;
+}
+
+.fbcomments {
+  width: 44vw;
+margin-left: 5vw;
+margin-top: 10vw;
+}
+
+.share{
+  width: 20vw;
+  margin-left: 16vw;
+  margin-top: 2vw;
+}
+
+.socialBubble{
+  width: 3.5vw;
+margin-left: 1vw;
 }

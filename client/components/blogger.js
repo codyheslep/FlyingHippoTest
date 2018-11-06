@@ -5,7 +5,7 @@ import BlogPost from './blogPost'
 import Sidebar from './sidebar'
 
 
-class UserHome extends Component {
+class Blogger extends Component {
   constructor () {
     super()
 
@@ -52,4 +52,4 @@ class UserHome extends Component {
 }
 }
 
-export default UserHome
+export default Blogger

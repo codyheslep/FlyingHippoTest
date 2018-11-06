@@ -2,7 +2,8 @@ import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import Overview from './overview'
 import BlogPostSingle from './blogPostSingle'
-import Sidebar from './sidebar'
+import SidebarSingle from './sidebarSingle'
+import FbComments from './fbcomments'
 
 
 class Single extends Component {
@@ -21,10 +22,12 @@ class Single extends Component {
       </div>
       <div className="innerContainer">
         <BlogPostSingle />
-        <div class="fb-comments" data-href="https://www.codyheslep.com" data-numposts="5"></div>
+      </div>
+      <div className="innerContainer">
+       <FbComments />
       </div>
       <div >
-        <Sidebar />
+        <SidebarSingle />
       </div>
     </div>
   )

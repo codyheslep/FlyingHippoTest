@@ -9,7 +9,7 @@ class PostList extends Component {
       posts: []
     }
 
-    let postsURL = "https://www.pushpinsandfabriccorkboards.com/wp-json/wp/v2/fh_blogpost"
+    let postsURL = "https://www.pushpinsandfabriccorkboards.com/wp-json/wp/v2/fh_postblogger"
     fetch(postsURL)
     .then(response => response.json())
     .then(response => {
@@ -28,7 +28,7 @@ class PostList extends Component {
     let posts = this.state.posts.map((post, index) => {
       return (
         <div className="posts">
-                <text className="postTitle">{post.acf.title}</text><br /><text className="postDate">POSTED ON {post.acf.date}</text><hr />
+                <text className="postTitle">{post.acf.title}</text><br /><text className="postDate">POSTED ON {post.acf.date.toUpperCase()}</text><hr />
               </div>
       )
     })

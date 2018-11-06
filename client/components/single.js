@@ -5,7 +5,7 @@ import BlogPostSingle from './blogPostSingle'
 import Sidebar from './sidebar'
 
 
-class UserHome extends Component {
+class Single extends Component {
   constructor () {
     super()
 
@@ -21,6 +21,7 @@ class UserHome extends Component {
       </div>
       <div className="innerContainer">
         <BlogPostSingle />
+        <div class="fb-comments" data-href="https://www.codyheslep.com" data-numposts="5"></div>
       </div>
       <div >
         <Sidebar />
@@ -30,4 +31,4 @@ class UserHome extends Component {
 }
 }
 
-export default UserHome
+export default Single

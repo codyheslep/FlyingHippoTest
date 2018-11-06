@@ -25,22 +25,18 @@ class BlogPostSingle extends Component {
     return (
       <div>
       { this.state && this.state.blogPost[0] &&
-      <div className="blogPost">
+      <div className="blogPostLarge">
         <div >
-          <img src="../images/blogger/post_background.png" className="blogPostBackground" />
-          <div className="blogPostBox"/>
+          <img src="../images/blogger/largeblogback.png" className="blogPostBackgroundLarge" />
+          <div className="blogPostBoxLarge"/>
         </div>
         <img
               src="../images/blogger/blogwriter.png"
-              className="blogWriter"
+              className="blogWriterLarge"
             />
-        <div className="blogPostContent">
-        <img
-              src="../images/blogger/numbubble.png"
-              className="numBubble"
-            />
+        <div className="blogPostContentLarge">
           <div>
-            <text className="tealSubHeaderPost">POSTED ON {this.state.blogPost[0].acf.date.toUpperCase()}</text>
+            <text className="goldDate"> {this.state.blogPost[0].acf.date.toUpperCase()}</text>
           </div >
           <div className="blogTitle">
             <text className="redHead">{this.state.blogPost[0].acf.title}</text>

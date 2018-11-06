@@ -103,6 +103,13 @@ br {
   display: inline-block
 }
 
+.goldDate {
+  color: goldenrod;
+  font-size: 1vw;
+  margin-left: .2vw;
+  display: inline-block
+}
+
 .blueHeader {
   color: darkblue;
   font-size: 1vw;
@@ -115,6 +122,7 @@ br {
   font-size: 1vw;
   line-height: 1.5;
   margin-left: 1vw;
+  display: inline-block;
 }
 
 .blackBodyItalics {
@@ -590,4 +598,48 @@ br {
 
 .textwithPic{
   width: 75%;
+}
+
+
+.blogPostLarge {
+  width: 60vw;
+  height: 60vw;
+  top: 1vw;
+  position: relative;
+}
+
+.blogPostBackgroundLarge {
+  width: 53vw;
+  height: 53vw;
+  z-index: -1
+}
+
+.blogPostBoxLarge {
+  background-color: white;
+  position: absolute;
+  top: 2.5vw;
+  left: 2.5vw;
+  width: 48vw;
+  height: 43vw;
+  opacity: .5;
+  border-radius: 1vw;
+}
+
+.blogPostContentLarge {
+  position: absolute;
+  width: 48vw;
+  height: 43vw;
+  top: 2.5vw;
+  left: 4vw;
+}
+
+.blogWriterLarge {
+  position: absolute;
+  top: 2.8vw;
+  left: -1.5vw;
+  width: 6vw;
+}
+
+.blogTitle{
+  margin-left: -1.5vw
 }

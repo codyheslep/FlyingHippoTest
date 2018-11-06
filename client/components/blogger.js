@@ -3,6 +3,7 @@ import {connect} from 'react-redux'
 import Overview from './overview'
 import BlogPost from './blogPost'
 import Sidebar from './sidebar'
+import Navbar from './navbar'
 
 
 class Blogger extends Component {
@@ -14,25 +15,7 @@ class Blogger extends Component {
     }
   }
 
-  // componentDidMount () {
-  //   let blogPostsURL = "https://www.pushpinsandfabriccorkboards.com/wp-json/wp/v2/fh_blogpost"
-  //   fetch(blogPostsURL)
-  //   .then(response => response.json())
-  //   .then(response => {
-  //     this.setState({
-  //       blogPosts: response
-  //     })
-  //   })
-  // }
-
   render() {
-    // let blogPosts = this.state.blogPosts.map((post, index) => {
-    //   return (
-    //     <div key={index}>
-    //     {post.acf.date}
-    //     </div>
-    //   )
-    // })
   return (
     <div className="container">
       <div className="logoContainer">

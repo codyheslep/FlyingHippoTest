@@ -45,7 +45,7 @@ class BlogPostSingle extends Component {
           <div>
             <text className="goldDate"> {this.state.blogPost[0].acf.date.toUpperCase()}</text>
           </div >
-          <div>
+          <div className="largeBody">
             <p className="blackBodyItalics">{this.state.blogPost[0].acf.content}</p>
           </div>
           {this.state.blogPost[0].acf.video &&
@@ -63,7 +63,7 @@ class BlogPostSingle extends Component {
           <img src={this.state.blogPost[0].acf.picture2} className="blogPostPic2" />
           </div>
           }
-          <div>
+          <div className="largeBody">
             <p className="blackBodyItalics">{this.state.blogPost[0].acf.content2}</p>
           </div>
         </div>

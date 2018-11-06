@@ -11,7 +11,7 @@ const FbComments= () => {
     <img src="../images/single/share.png" className="share"/>
     <img src="../images/single/socialbubble.png" className="socialBubble"/>
     <div className="fbcomments">
-    <div class="fb-comments" data-width="100%" data-href="https://www.codyheslep.com" data-numposts="5"></div>
+    <div class="fb-comments" data-mobile="true" data-href="https://www.codyheslep.com" data-numposts="5"></div>
     </div>
     </div>
   )

@@ -11,7 +11,6 @@ class Routes extends Component {
 
     return (
       <div>
-      <Navbar/>
       <Switch>
         <Route exact path="/" component={Blogger} />
         <Route exact path="/home" component={Home} />

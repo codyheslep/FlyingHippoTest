@@ -23,10 +23,6 @@ form div {
   display: inline-block;
 }
 
-text {
-  margin-left: 7%;
-}
-
 p {
   margin-left: 7%;
 }
@@ -39,12 +35,6 @@ hr {
 .blackBody br{
   margin-bottom: 1vw;
   }
-/* p {
-  color: black;
-  font-size: 1vw;
-  line-height: 1.5;
-  margin-left: 1vw;
-} */
 
 br {
   margin: 0;
@@ -52,35 +42,59 @@ br {
 
 }
 .navbar {
-  width: 100%;
-  height: 5vw;
+  width: 99vw;
+  height: 3vw;
+  background-color: white;
+  margin-left: -1vw;
+  margin-top: -1vw;
+  margin-bottom: 3vw;
 }
 
 .bloggerButton{
-  width: 33%;
+  width: 25%;
+  font-size: 1.5vw;
   float: left;
+  border: none;
+  background-color: white;
+  margin-top: 1vw;
 }
 
 .homeButton{
-  width: 33%;
+  width: 25%;
   float: left;
+  font-size: 1.5vw;
+  border: none;
+  background-color: white;
+  margin-top: 1vw;
 }
 .singleButton{
-  width: 33%;
+  width: 25%;
   float: left;
+  font-size: 1.5vw;
+  border: none;
+  background-color: white;
+  margin-top: 1vw;
 }
+
+.githubButton{
+  width: 25%;
+  float: left;
+  font-size: 1.5vw;
+  border: none;
+  background-color: white;
+  margin-top: 1vw;
+}
+
 .redHead{
   color: #d41121;
   font-size: 2vw;
-  line-height: 2;
-  margin-left: 2.5vw
+  margin-left: 0;
 }
 
 .tealSubHeader {
   color: #3ba979;
   font-size: 1vw;
   margin-top: 1vw;
-  margin-left: 1vw;
   line-height: 1.5;
 }
 
@@ -88,7 +102,8 @@ br {
   color: #3ba979;
   font-size: 1vw;
   margin-top: 2vw;
-  margin-left: 1vw;
+  margin-bottom: .5vw;
+  margin-left: 0;
   line-height: 1.5;
   position: relative;
   top: 1vw;
@@ -100,7 +115,6 @@ br {
   font-size: 1vw;
   font-style: italic;
   margin-left: .2vw;
-  display: inline-block
 }
 
 .goldDate {
@@ -122,7 +136,7 @@ margin-bottom: 2vw;
   color: black;
   font-size: 1vw;
   line-height: 1.5;
-  margin-left: 1vw;
+  margin-left: .1vw;
   display: inline;
 }
 
@@ -132,7 +146,17 @@ margin-bottom: 2vw;
   font-style: italic;
   line-height: 1.5;
   margin-top: 0;
-  margin-left: 1vw;
+  margin-left: 0;
+  margin-right: 3vw;
+}
+
+.blackBodyItalics2 {
+  color: black;
+  font-size: 1.2vw;
+  font-style: italic;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-left: 0;
   margin-right: 3vw;
 }
 
@@ -209,7 +233,7 @@ margin-bottom: 2vw;
   height: 37vw;
   background-color: white;
   border-bottom-left-radius: 2vw;
-  box-shadow: 1vw 1vw 1vw black;
+  box-shadow: 18px 18px 27px -3px black;
 }
 
 .overviewHeader{
@@ -219,7 +243,7 @@ margin-bottom: 2vw;
 
 .overviewBody {
   margin-right: 15%;
-  margin-left: 1vw;
+  margin-left: .3vw;
   margin-top: -1vw;
 }
 
@@ -234,6 +258,18 @@ margin-bottom: 2vw;
 .rss {
   height: 2vw;
   margin-left: 1vw;
+}
+
+.headText{
+  margin-left: 2vw;
+  top: .75vw;
+  position: relative;
+}
+
+.subheadText{
+  margin-left: 2vw;
+  top: .75vw;
+  position: relative;
 }
 
 .blogPost {
@@ -271,19 +307,23 @@ margin-bottom: 2vw;
 .blogWriter{
   position: absolute;
   top: 2.8vw;
-  left: -1.5vw;
+  left: -2.3vw;
   width: 6vw;
 }
 
 .numBubble{
   position: absolute;
   top: .5vw;
-  left: 17vw;
+  left: 18vw;
   width: 2vw;
 }
 
 .blogTitle{
-  margin-left: -1.5vw
+  margin-left: 0vw;
+
+margin-top: 1vw;
+
+margin-bottom: 1vw;
 }
 
 .videoContainer {
@@ -333,7 +373,7 @@ margin-bottom: 2vw;
   position: absolute;
   width: 30.2vw;
   height: auto;
-  top: -2%;
+  top: -1%;
   left: 65%;
   z-index: 1
 }
@@ -524,6 +564,7 @@ margin-bottom: 2vw;
   color: darkblue;
   font-size: 1.5vw;
   line-height: 3.5;
+  margin-left: 1vw;
 }
 
 .postAuthor {
@@ -565,25 +606,26 @@ margin-bottom: 2vw;
 }
 
 .smallblogPost {
-  width: 60vw;
-  height: 28vw;
-  top: 0;
+  width: auto;
+  height: auto;
+  margin: 1vw;
+  margin-left: 0;
   position: relative;
 }
 
 .smallblogPostBackground {
-  width: 53vw;
-  height: 27vw;
+  width: 56vw;
+  height: 23vw;
   z-index: -1
 }
 
 .smallblogPostBox {
   background-color: white;
   position: absolute;
-  top: 2.5vw;
-  left: 2.5vw;
-  width: 48vw;
-  height: 22vw;
+  top: 2vw;
+  left: 2vw;
+  width: 52vw;
+  height: 19vw;
   opacity: .5;
   border-radius: 1vw;
 }
@@ -597,20 +639,23 @@ margin-bottom: 2vw;
 }
 
 .smallblogPhotoContainer{
-  position: relative;
+  position: absolute;
   width: 100%;
 }
 
 .smallblogPhoto {
-  position: absolute;
-  width: 12vw;
+  float: right;
+
+  width: 13vw;
+
   height: auto;
-  top: 5vw;
-  right: 3vw;
+
+  margin: 1vw;
+  margin-top: 2vw;
 }
 
 .textwithPic{
-  width: 75%;
+  width: 96%;
 }
 
 
@@ -622,7 +667,7 @@ margin-bottom: 2vw;
 
 .blogPostBackgroundLarge {
   width: 53vw;
-  height: 100vw;
+  height: 98vw;
   z-index: -1
 }
 
@@ -660,7 +705,7 @@ width: 8vw;
 }
 
 .blogTitleLarge{
-  margin-left: -1.5vw;
+  margin-left: 1vw;
   margin-top: 2vw;
 }
 
@@ -761,7 +806,7 @@ top: 5vw;
 position: absolute;
 width: 30.2vw;
 height: 110vw;
-top: -2%;
+top: -1%;
 left: 65%;
 z-index: 1;
 }
@@ -781,13 +826,18 @@ left: 6.5vw;
   border-radius: 1vw;
   box-shadow: black;
   margin-top: -9vw;
-  box-shadow: 1vw 1vw 1vw 1vw black;
+  box-shadow: 0px 0px 30px -3px black;
+  overflow:hidden;
+  max-height: 650px;
 }
 
 .fbcomments {
   width: 44vw;
 margin-left: 5vw;
 margin-top: 10vw;
+height: 34vw;
+overflow: auto;
+max-height: 500px;
 }
 
 .share{
@@ -799,4 +849,37 @@ margin-top: 10vw;
 .socialBubble{
   width: 3.5vw;
 margin-left: 1vw;
+}
+
+#fbcomments, .fb-comments, .fb-comments iframe[style], .fb-comments span {
+  width: 100% !important;
+}
+
+.smallBlogContent{
+  width: 50vw;
+
+position: absolute;
+
+left: 4vw;
+
+top: 3vw;
+}
+
+.smallHeaders{
+  position: absolute;
+
+  top: 1vw;
+}
+
+.smallContent{
+  width: 48vw;
+
+  position: relative;
+
+
+  top: 1vw;
+}
+
+.largeBody{
+  margin-left:1vw;
 }

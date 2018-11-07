@@ -1062,8 +1062,8 @@ br {
   position: absolute;
   width: 28vw;
   height: 19vw;
-  left: 1vw;
-  top: 65%;
+  left: 1.4vw;
+  top: 66%;
 }
 
 .picsContainer {
@@ -1074,7 +1074,7 @@ br {
 .smallPic {
   width: 5vw;
   height: 5vw;
-  margin: 0.3vw;
+  margin: 0.2vw;
   flex-shrink: 2;
 }
 

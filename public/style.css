@@ -492,7 +492,7 @@ br {
   display: inline-block;
   font-size: 1.5vw;
   position: absolute;
-  top: 32.7vw;
+  top: 37.7vw;
   left: 2vw;
   border: none;
   border-radius: 0.5vw;
@@ -612,6 +612,7 @@ br {
   height: 40vw;
   width: 30vw;
   font-size: 0;
+  margin-top: 5vw;
 }
 
 .buttonPost {
@@ -787,6 +788,7 @@ br {
 
 .latestVideosContentBackground2 {
   background-color: lightskyblue;
+  background-image: url("./images/blogger/blueback.png");
   position: absolute;
   opacity: 0.5;
   width: 30.2vw;

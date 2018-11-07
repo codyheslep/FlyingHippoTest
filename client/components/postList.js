@@ -27,14 +27,16 @@ class PostList extends Component {
     let posts = this.state.posts.map((post, index) => {
       return (
         <div className="posts" key={index}>
-          <text className="postTitle">{post.acf.title}</text>
-          {post.acf.video && (
-            <img src="../images/blogger/movie.png" className="movieSide" />
-          )}
-          <br />
-          <text className="postDate">
-            POSTED ON {post.acf.date.toUpperCase()}
-          </text>
+          <a href="#">
+            <text className="postTitle">{post.acf.title}</text>
+            {post.acf.video && (
+              <img src="../images/blogger/movie.png" className="movieSide" />
+            )}
+            <br />
+            <text className="postDate">
+              POSTED ON {post.acf.date.toUpperCase()}
+            </text>
+          </a>
           <hr />
         </div>
       );

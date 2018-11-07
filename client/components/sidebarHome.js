@@ -5,23 +5,35 @@ const Sidebar = () => {
   return (
     <div className="sidebarHome">
       <div className="searchButton">
-        <img src="../images/blogger/searchicon.png" className="searchIcon" />
+        <a href="#">
+          <img src="../images/blogger/searchicon.png" className="searchIcon" />
+        </a>
       </div>
       <div>
-        <img src="../images/blogger/search.png" className="search" />
-        <img src="../images/blogger/castbutton.png" className="castButton" />
-        <img
-          src="../images/blogger/videosbutton.png"
-          className="videosButton"
-        />
-        <img
-          src="../images/blogger/topicsbutton.png"
-          className="topicsButton"
-        />
-        <img
-          src="../images/blogger/archivesbutton.png"
-          className="archivesButton"
-        />
+        <a href="#">
+          <img src="../images/blogger/search.png" className="search" />
+        </a>
+        <a href="#">
+          <img src="../images/blogger/castbutton.png" className="castButton" />
+        </a>
+        <a href="#">
+          <img
+            src="../images/blogger/videosbutton.png"
+            className="videosButton"
+          />
+        </a>
+        <a href="#">
+          <img
+            src="../images/blogger/topicsbutton.png"
+            className="topicsButton"
+          />
+        </a>
+        <a href="#">
+          <img
+            src="../images/blogger/archivesbutton.png"
+            className="archivesButton"
+          />
+        </a>
       </div>
       <div className="sidebarContainer">
         <div className="latestPosts2">
@@ -38,13 +50,15 @@ const Sidebar = () => {
         <div className="latestPostsContent2">
           <img src="../images/home/signature.png" className="signature" />
           <img src="../images/home/girlsnap.png" className="girlSnap" />
-          <img src="../images/home/amandabub.png" className="sideBubble" />
+          <a href="#">
+            <img src="../images/home/amandabub.png" className="sideBubble" />
+          </a>
           <div className="smallPicContainer">
             <SmallPics />
           </div>
         </div>
         <div className="latestVideos2">
-        <div className="latestVideosContentBackgroundB" />
+          <div className="latestVideosContentBackgroundB" />
           <div className="latestVideosContentBackground2" />
           <img
             src="../images/blogger/tvsidebar.png"
@@ -69,7 +83,22 @@ const Sidebar = () => {
             className="videoLinks"
           />
           <img src="../images/blogger/textlinks.png" className="textLinks" />
-          <text className="copyright3">© 2012 Student Life</text>
+          <a href="#">
+            <div className="whatDiv2" />
+          </a>
+          <a href="#">
+            <div className="askDiv2" />
+          </a>
+          <a href="#">
+            <div className="liveDiv2" />
+          </a>
+          <a href="#">
+            <div className="joinDiv2" />
+          </a>
+          <a href="#">
+            <div className="subDiv2" />
+          </a>
+          <text className="copyright2">© 2012 Student Life</text>
         </div>
       </div>
     </div>

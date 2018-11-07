@@ -11,7 +11,9 @@ const Home = () => {
       </div>
       <div className="innerContainer">
         <SmallBlogPost />
-        <button className="olderButton">older posts</button>
+        <a href="#">
+          <button className="olderButton">older posts</button>
+        </a>
       </div>
       <div>
         <SidebarHome />

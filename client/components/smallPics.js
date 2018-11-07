@@ -25,7 +25,11 @@ class SmallPics extends Component {
 
   render() {
     let pictures = this.state.pics.map((pic, index) => {
-      return <img src={pic.acf.picture} className="smallPic" key={index} />;
+      return (
+        <a href="#">
+          <img src={pic.acf.picture} className="smallPic" key={index} />
+        </a>
+      );
     });
 
     return <div className="picsContainer">{pictures}</div>;

@@ -6,10 +6,18 @@ const FbComments = () => {
       <img src="../images/single/share.png" className="share" />
       <img src="../images/single/socialbubble.png" className="socialBubble" />
       <div className="socialButtons">
-      <img src="../images/single/sendbut.png" className="socialSend" />
-      <img src="../images/single/tweetbut.png" className="socialTweet" />
-      <img src="../images/single/plusbut.png" className="socialPlus" />
-      <img src="../images/single/pinbut.png" className="socialPin" />
+      <a href="#">
+          <img src="../images/single/sendbut.png" className="socialSend" />
+        </a>
+        <a href="#">
+          <img src="../images/single/tweetbut.png" className="socialTweet" />
+        </a>
+        <a href="#">
+          <img src="../images/single/plusbut.png" className="socialPlus" />
+        </a>
+        <a href="#">
+          <img src="../images/single/pinbut.png" className="socialPin" />
+        </a>
       </div>
       <div className="fbcomments">
         <div

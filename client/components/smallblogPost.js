@@ -52,7 +52,9 @@ class SmallBlogPost extends Component {
               <div className="smallContent">
                 <p className="blackBodyItalics2">
                   {post.acf.content}
-                  <text className="readMore">[READ MORE]</text>
+                  <a href="#">
+                    <text className="readMore">[READ MORE]</text>
+                  </a>
                 </p>
               </div>
             </div>
@@ -84,7 +86,9 @@ class SmallBlogPost extends Component {
               <div className="smallContent">
                 <p className="blackBodyItalics2">
                   {post.acf.content}{" "}
-                  <text className="readMore">[READ MORE]</text>
+                  <a href="#">
+                    <text className="readMore">[READ MORE]</text>
+                  </a>
                 </p>
               </div>
             </div>

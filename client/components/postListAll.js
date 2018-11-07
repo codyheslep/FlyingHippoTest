@@ -28,13 +28,15 @@ class PostListAll extends Component {
       if (index !== 0) {
         return (
           <div className="posts" key={index}>
-            <text className="postTitle2">{post.acf.title}</text>
-            {post.acf.video && (
-            <img src="../images/blogger/movie.png" className="movieSide" />
-          )}
-            <br />
-            <text className="postAuthor2">by {post.acf.author},</text>
-            <text className="postDate2">{post.acf.date.toUpperCase()}</text>
+            <a href="#">
+              <text className="postTitle2">{post.acf.title}</text>
+              {post.acf.video && (
+                <img src="../images/blogger/movie.png" className="movieSide" />
+              )}
+              <br />
+              <text className="postAuthor2">by {post.acf.author},</text>
+              <text className="postDate2">{post.acf.date.toUpperCase()}</text>
+            </a>
             <hr />
           </div>
         );

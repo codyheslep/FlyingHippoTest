@@ -74,11 +74,15 @@ class Overview extends Component {
                   />
                 </div>
                 <div className="overviewSocialMedia">
-                  <img
-                    src="../images/blogger/twitter.png"
-                    className="twitter"
-                  />
-                  <img src="../images/blogger/rss.png" className="rss" />
+                  <a href="#">
+                    <img
+                      src="../images/blogger/twitter.png"
+                      className="twitter"
+                    />
+                  </a>
+                  <a href="#">
+                    <img src="../images/blogger/rss.png" className="rss" />
+                  </a>
                 </div>
               </div>
             </div>

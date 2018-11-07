@@ -20,7 +20,7 @@ class BlogPost extends Component {
         this.setState({
           blogPost: response
         });
-      })
+      });
   }
 
   render() {
@@ -55,7 +55,7 @@ class BlogPost extends Component {
                     {this.state.blogPost[0].acf.title}
                   </text>
                   <text className="goldItalics">
-                    by {this.state.blogPost[0].acf.author.toUpperCase()}
+                    by {this.state.blogPost[0].acf.author}
                   </text>
                 </div>
                 <div>

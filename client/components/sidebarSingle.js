@@ -6,23 +6,35 @@ const SidebarSingle = () => {
   return (
     <div className="sidebar2">
       <div className="searchButton">
-        <img src="../images/blogger/searchicon.png" className="searchIcon" />
+        <a href="#">
+          <img src="../images/blogger/searchicon.png" className="searchIcon" />
+        </a>
       </div>
       <div>
-        <img src="../images/blogger/search.png" className="search" />
-        <img src="../images/blogger/castbutton.png" className="castButton" />
-        <img
-          src="../images/blogger/videosbutton.png"
-          className="videosButton"
-        />
-        <img
-          src="../images/blogger/topicsbutton.png"
-          className="topicsButton"
-        />
-        <img
-          src="../images/blogger/archivesbutton.png"
-          className="archivesButton"
-        />
+        <a href="#">
+          <img src="../images/blogger/search.png" className="search" />
+        </a>
+        <a href="#">
+          <img src="../images/blogger/castbutton.png" className="castButton" />
+        </a>
+        <a href="#">
+          <img
+            src="../images/blogger/videosbutton.png"
+            className="videosButton"
+          />
+        </a>
+        <a href="#">
+          <img
+            src="../images/blogger/topicsbutton.png"
+            className="topicsButton"
+          />
+        </a>
+        <a href="#">
+          <img
+            src="../images/blogger/archivesbutton.png"
+            className="archivesButton"
+          />
+        </a>
       </div>
       <div className="sidebarContainer">
         <div className="latestPosts">
@@ -37,7 +49,9 @@ const SidebarSingle = () => {
           <div className="latestPostsContent">
             <div>
               <PostList />
-              <button className="viewAllButton">view all</button>
+              <a href="#">
+                <button className="viewAllButton">view all</button>
+              </a>
             </div>
           </div>
         </div>
@@ -48,12 +62,29 @@ const SidebarSingle = () => {
           <div className="latestVideosContentBackgroundC" />
           <div className="latestVideosContentBackground3" />
           <PostListAll />
-          <button className="viewAllButton2">view all</button>
+          <a href="#">
+            <button className="viewAllButton2">view all</button>
+          </a>
           <img
             src="../images/blogger/blue_texture.png"
             className="videoLinks2"
           />
           <img src="../images/blogger/textlinks.png" className="textLinks2" />
+          <a href="#">
+            <div className="whatDiv3" />
+          </a>
+          <a href="#">
+            <div className="askDiv3" />
+          </a>
+          <a href="#">
+            <div className="liveDiv3" />
+          </a>
+          <a href="#">
+            <div className="joinDiv3" />
+          </a>
+          <a href="#">
+            <div className="subDiv3" />
+          </a>
           <text className="copyright3">© 2012 Student Life</text>
         </div>
       </div>

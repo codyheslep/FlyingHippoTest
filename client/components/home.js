@@ -1,6 +1,4 @@
 import React from "react";
-import { connect } from "react-redux";
-import Overview from "./overview";
 import SmallBlogPost from "./smallblogPost";
 import SidebarHome from "./sidebarHome";
 
@@ -13,6 +11,7 @@ const Home = () => {
       </div>
       <div className="innerContainer">
         <SmallBlogPost />
+        <button className="olderButton">older posts</button>
       </div>
       <div>
         <SidebarHome />

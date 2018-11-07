@@ -8,14 +8,11 @@ const bodyParser = require('body-parser');
 const app = express();
 const port = process.env.PORT || 8080
 
-//logging middleware
 app.use(volleyball);
 
-//body parsing middleware
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-//static middleware
 app.use(express.static(path.join(__dirname, '..', 'public')));
 
 app.listen(process.env.PORT || 8080, () => console.log(`Listening on`, port))
@@ -26,7 +23,6 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '..', 'public/index.html'));
 });
 
-//error handling middleware
 app.use((err, req, res, next) => {
   console.error(err.stack);
   res.status(err.status || 500).send(err.message || 'Internal server error');

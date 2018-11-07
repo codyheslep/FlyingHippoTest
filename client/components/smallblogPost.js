@@ -41,6 +41,18 @@ class SmallBlogPost extends Component {
                 src={post.acf.contentpic}
                 className="smallblogPhoto"
               />
+              <img
+                src={post.acf.biopic}
+                className="smallAuthor"
+              />
+              <img
+                src="../images/blogger/numbubble.png"
+                className="smallComBub"
+              />
+              <img
+                src="../images/home/videotag.png"
+                className="videotag"
+              />
                 <text className="tealSubHeader">
                   POSTED ON {post.acf.date.toUpperCase()}
                 </text><br/>
@@ -68,6 +80,14 @@ class SmallBlogPost extends Component {
             <img
                 src={post.acf.contentpic}
                 className="smallblogPhoto"
+              />
+              <img
+                src={post.acf.biopic}
+                className="smallAuthor"
+              />
+              <img
+                src="../images/blogger/numbubble.png"
+                className="smallComBub"
               />
                 <text className="tealSubHeader">
                   POSTED ON {post.acf.date.toUpperCase()}
